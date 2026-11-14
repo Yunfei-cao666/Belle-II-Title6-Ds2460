@@ -39,6 +39,7 @@
 | 8 | [`docs/07_search_protocol.md`](docs/07_search_protocol.md) | 后续 agent | 如何查 basf2 wiki / Data Production / 历史版本 |
 | 9 | [`docs/08_access_policy.md`](docs/08_access_policy.md) | 全组 | 公开资料边界、token 安全、引用规则 |
 | 10 | [`docs/09_agent_brief.md`](docs/09_agent_brief.md) | 后续 agent | 写代码时的任务、约束、验收标准 |
+| 11 | [`docs/SEARCH_LOG.md`](docs/SEARCH_LOG.md) | 后续 agent | 已查过的公开资料、待验证项 |
 
 > 执行摘要的 PDF 版本：[`docs/00_summary.pdf`](docs/00_summary.pdf)。  
 > GitHub 上直接点 `.md` 也能看，公式用 `$...$` 渲染。
@@ -83,7 +84,8 @@ LHCb 在 9 fb$^{-1}$ 的 $pp$ 数据中看到约 800 个信号事例，并在 $m
 │   ├── 06_execution.md
 │   ├── 07_search_protocol.md
 │   ├── 08_access_policy.md
-│   └── 09_agent_brief.md
+│   ├── 09_agent_brief.md
+│   └── SEARCH_LOG.md
 ├── code/
 │   ├── steering/
 │   │   ├── README.md
