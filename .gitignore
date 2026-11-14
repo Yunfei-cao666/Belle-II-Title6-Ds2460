@@ -1,0 +1,26 @@
+# ROOT / analysis outputs
+*.root
+*.root.*
+*.pcm
+*.d
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local results / logs
+results/
+logs/
+output/
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large local artifacts (do not commit data)
+*.ntuple
