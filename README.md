@@ -13,7 +13,7 @@
 
 这是一个**公开**的 Belle II 分析项目仓库，面向初次接触 Belle II 物理分析的同学。它包含：
 
-- 一份面向师兄/导师的 **2 页摘要**；
+- 一份面向师兄/导师的 **执行摘要**；
 - 按主题拆分的详细方案（物理、数据生产、重建、本底、拟合、执行计划）；
 - 给后续 agent 使用的 **basf2 文档检索协议**；
 - 一套**可读、可改、待验证**的 basf2 代码骨架；
@@ -29,7 +29,7 @@
 
 | 顺序 | 文件 | 给谁看 | 内容 |
 |---|---|---|---|
-| 1 | [`docs/00_summary.md`](docs/00_summary.md) | 师兄/导师 | 2 页摘要：目标、数据、重建、本底、拟合、计划 |
+| 1 | [`docs/00_summary.md`](docs/00_summary.md) | 师兄/导师 | 执行摘要：目标、数据、重建、本底、拟合、计划 |
 | 2 | [`docs/01_physics.md`](docs/01_physics.md) | 全组 | 物理动机、LHCb 结果、Belle II 策略 |
 | 3 | [`docs/02_data_production.md`](docs/02_data_production.md) | 做数据的人 | Data Production、skim、uDST/mDST、MC |
 | 4 | [`docs/03_reconstruction.md`](docs/03_reconstruction.md) | 做重建的人 | $D_s,D^0,D^*,D_{s1},B$ 的模块与 cut |
@@ -39,6 +39,9 @@
 | 8 | [`docs/07_search_protocol.md`](docs/07_search_protocol.md) | 后续 agent | 如何查 basf2 wiki / Data Production / 历史版本 |
 | 9 | [`docs/08_access_policy.md`](docs/08_access_policy.md) | 全组 | 公开资料边界、token 安全、引用规则 |
 | 10 | [`docs/09_agent_brief.md`](docs/09_agent_brief.md) | 后续 agent | 写代码时的任务、约束、验收标准 |
+
+> 执行摘要的 PDF 版本：[`docs/00_summary.pdf`](docs/00_summary.pdf)。  
+> GitHub 上直接点 `.md` 也能看，公式用 `$...$` 渲染。
 
 ---
 

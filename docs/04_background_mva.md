@@ -88,7 +88,7 @@ nTracks,
 B_pstar, B_cosTheta,
 Ds1_pstar, Ds1_chiProb,
 Ds_sigDist, Ds_pstar,
-D0_pstar, Dst_pstar
+Dbar_pstar
 ```
 
 **不要放：**
@@ -118,7 +118,7 @@ basf2_mva_teacher \
   --identifier Ds1_BDT.root \
   --variables R2 cosTBTO thrust foxWolframR2 nTracks \
               B_pstar B_cosTheta Ds1_pstar Ds1_chiProb \
-              Ds_sigDist Ds_pstar D0_pstar Dst_pstar \
+              Ds_sigDist Ds_pstar Dbar_pstar \
   --target_variable isSignal \
   --method FastBDT
 

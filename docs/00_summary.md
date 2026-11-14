@@ -1,4 +1,4 @@
-# 2 页摘要：Belle II 上的 $D_{s1}(2460)^+\to D_s^+\pi^+\pi^-$
+# 执行摘要：Belle II 上的 $D_{s1}(2460)^+\to D_s^+\pi^+\pi^-$
 
 > **题目**：Title 6 — $D_{s1}(2460)\to D_s\pi\pi$  
 > **参考**：LHCb, Science Bulletin 70 (2025) 1432–1444, [DOI](https://doi.org/10.1016/j.scib.2025.02.025)  

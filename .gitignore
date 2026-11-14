@@ -16,6 +16,9 @@ logs/
 output/
 *.log
 
+# Generated HTML previews
+*.html
+
 # Editors / OS
 .vscode/
 .idea/

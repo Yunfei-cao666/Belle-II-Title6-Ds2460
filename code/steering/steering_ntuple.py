@@ -32,6 +32,10 @@ def add_aliases():
     vm.addAlias("B_cosTheta", "cosTheta")
     vm.addAlias("BDT", "extraInfo(BDT)")
 
+    # B daughter 0 = Dbar* or Dbar; keep one momentum variable for BDT
+    vm.addAlias("Dbar_M", "daughter(0, M)")
+    vm.addAlias("Dbar_pstar", "daughter(0, p*)")
+
     # D_s1 = B daughter 1
     vm.addAlias("Ds1_M", "daughter(1, M)")
     vm.addAlias("Ds1_pstar", "daughter(1, p*)")
@@ -219,6 +223,7 @@ def build_path(input_files, output_bc="ntuple_Bc.root", output_bn="ntuple_Bn.roo
         "B_Mbc", "B_deltaE", "B_M", "B_pstar", "B_chiProb", "B_dr", "B_dz",
         "B_cosTheta", "nTracks", "R2", "cosTBTO", "charge",
         "Ds1_M", "Ds1_pstar", "Ds1_chiProb",
+        "Dbar_M", "Dbar_pstar",
         "Ds_M", "Ds_pstar", "Ds_sigDist",
         "pip_pstar", "pim_pstar",
         "pip_px", "pip_py", "pip_pz", "pip_E",

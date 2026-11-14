@@ -19,7 +19,7 @@ bash train_bdt.sh
 ```text
 R2 cosTBTO thrust foxWolframR2 nTracks
 B_pstar B_cosTheta Ds1_pstar Ds1_chiProb
-Ds_sigDist Ds_pstar D0_pstar Dst_pstar
+Ds_sigDist Ds_pstar Dbar_pstar
 ```
 
 **不要**把 `Ds1_M`、$m(\pi\pi)$、$M_{\rm bc}$、`deltaE` 放进去，否则会 sculpt 拟合变量。
