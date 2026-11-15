@@ -41,6 +41,7 @@
 | 10 | [`docs/09_agent_brief.md`](docs/09_agent_brief.md) | 后续 agent | 写代码时的任务、约束、验收标准 |
 | 11 | [`docs/SEARCH_LOG.md`](docs/SEARCH_LOG.md) | 后续 agent | 已查过的公开资料、待验证项 |
 | 12 | [`docs/10_dsj_analysis.md`](docs/10_dsj_analysis.md) | 全组 | **简化路线**：Belle 2003 式 $D_{sJ}$ 直接重建 + 玩具图 |
+| 13 | [`docs/INPUTS.md`](docs/INPUTS.md) | 全组/复核 | **Inputs 与参数清单**：用了哪些文件、哪些论文值、哪些 toy 假设 |
 
 > 执行摘要的 PDF 版本：[`docs/00_summary.pdf`](docs/00_summary.pdf)。  
 > 简化路线的完整报告 PDF：[`docs/10_dsj_analysis.pdf`](docs/10_dsj_analysis.pdf)。  
@@ -99,6 +100,7 @@ LHCb 在 9 fb$^{-1}$ 的 $pp$ 数据中看到约 800 个信号事例，并在 $m
 │   ├── 08_access_policy.md
 │   ├── 09_agent_brief.md
 │   ├── 10_dsj_analysis.md
+│   ├── INPUTS.md
 │   └── SEARCH_LOG.md
 ├── code/
 │   ├── steering/
