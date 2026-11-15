@@ -12,6 +12,15 @@ Science Bulletin **70** (2025) 1432–1444.
 > 这是**参考文献**，不是本项目的分析结果。  
 > 本项目的方案在 `docs/`，代码在 `code/`。
 
+## Belle 2003 D_sJ paper
+
+Y. Mikami et al. (Belle Collaboration), *Measurements of the $D_{sJ}$ resonance properties*,  
+arXiv:hep-ex/0307052.
+
+- arXiv: <https://arxiv.org/abs/hep-ex/0307052>
+- Local copy: [`0307052v2.pdf`](0307052v2.pdf)
+- 用途：简化路线（直接重建 $D_{sJ}$）的主要参考。
+
 ## Other references
 
 - PDG: <https://pdg.lbl.gov/>

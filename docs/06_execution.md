@@ -3,6 +3,9 @@
 > 这一章把“大计划”拆成可执行的小阶段。  
 > 原则：**先控制道，再信号；先产额，再振幅；每一步都有交付物和 gate。**
 
+> **2026-11-15 更新**：根据黄仪伟/杨昊中的建议，先走**简化路线**——直接重建 continuum $e^+e^-\to c\bar c$ 中的 $D_{sJ}$，复现 Belle 2003 的 $\Delta M$ 分析（见 `docs/10_dsj_analysis.md`）。  
+> 完整 B 衰变/Dalitz 路线保留为长期目标。
+
 ---
 
 ## 0. 总览
@@ -15,6 +18,21 @@
 | 3 产额/分支比 | 6 个月 | 信号产额 | 拟合图 + $R$ | 显著度/上限 |
 | 4 振幅 | 9–12 个月 | Dalitz | fit fractions | closure 通过 |
 | 5 系统误差/发表 | 12–18 个月 | 论文 | draft | review 通过 |
+
+---
+
+## 0.1 先做简化路线（2–4 周）
+
+在进入 B 衰变重建前，先做：
+
+- [ ] 找 Belle II 的 continuum/charm skim；
+- [ ] 复现 $D_s^+\to\phi\pi^+$ 质量峰；
+- [ ] 加 $\pi^0$、$\gamma$、$D_s^{*+}$；
+- [ ] 画 $\Delta M(D_s^+\pi^0)$、$\Delta M(D_s^{*+}\pi^0)$、$\Delta M(D_s^+\gamma)$、$\Delta M(D_s^+\pi^+\pi^-)$；
+- [ ] 用 Gaussian + polynomial 拟合；
+- [ ] 先看 $D_{sJ}(2317)$，再看 $D_{sJ}(2457)$。
+
+参考：`docs/10_dsj_analysis.md`。
 
 ---
 

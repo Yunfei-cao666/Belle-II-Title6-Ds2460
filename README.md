@@ -40,8 +40,10 @@
 | 9 | [`docs/08_access_policy.md`](docs/08_access_policy.md) | 全组 | 公开资料边界、token 安全、引用规则 |
 | 10 | [`docs/09_agent_brief.md`](docs/09_agent_brief.md) | 后续 agent | 写代码时的任务、约束、验收标准 |
 | 11 | [`docs/SEARCH_LOG.md`](docs/SEARCH_LOG.md) | 后续 agent | 已查过的公开资料、待验证项 |
+| 12 | [`docs/10_dsj_analysis.md`](docs/10_dsj_analysis.md) | 全组 | **简化路线**：Belle 2003 式 $D_{sJ}$ 直接重建 + 玩具图 |
 
 > 执行摘要的 PDF 版本：[`docs/00_summary.pdf`](docs/00_summary.pdf)。  
+> 简化路线的完整报告 PDF：[`docs/10_dsj_analysis.pdf`](docs/10_dsj_analysis.pdf)。  
 > GitHub 上直接点 `.md` 也能看，公式用 `$...$` 渲染。
 
 ---
@@ -67,6 +69,17 @@ $$
 
 LHCb 在 9 fb$^{-1}$ 的 $pp$ 数据中看到约 800 个信号事例，并在 $m(\pi^+\pi^-)$ 谱中看到双峰结构。Belle II 的优势是干净、可全重建、可分 $B^+/B^0$，可以用不同系统误差独立检验。
 
+### 两条路线
+
+| 路线 | 内容 | 适合阶段 |
+|---|---|---|
+| **完整路线** | $B\to\bar D^{(*)}D_{s1}$，$D_{s1}\to D_s\pi\pi$，Dalitz 振幅 | 长期/有统计量后 |
+| **简化路线**（先做） | 直接重建 continuum $e^+e^-\to c\bar c$ 中的 $D_{sJ}$，复现 Belle 2003 的 $\Delta M$ 分析 | 起步/练手/数据集少 |
+
+> 黄仪伟/杨昊中建议先做简化路线：**先只重建 $D_{sJ}$**，用 2003 Belle 的 cut，数据集少、步骤清楚。  
+> 具体见 [`docs/10_dsj_analysis.md`](docs/10_dsj_analysis.md)。  
+> 玩具复现图：[`figures/fig_combined.png`](figures/fig_combined.png)（不是原始数据）。
+
 ---
 
 ## 4. 仓库结构
@@ -85,6 +98,7 @@ LHCb 在 9 fb$^{-1}$ 的 $pp$ 数据中看到约 800 个信号事例，并在 $m
 │   ├── 07_search_protocol.md
 │   ├── 08_access_policy.md
 │   ├── 09_agent_brief.md
+│   ├── 10_dsj_analysis.md
 │   └── SEARCH_LOG.md
 ├── code/
 │   ├── steering/
@@ -99,7 +113,13 @@ LHCb 在 9 fb$^{-1}$ 的 $pp$ 数据中看到约 800 个信号事例，并在 $m
 │   └── fit/
 │       ├── README.md
 │       └── fit_yield.py
+├── figures/
+│   ├── README.md
+│   ├── fig_combined.png
+│   ├── fig_chain.png
+│   └── fig_yields.png
 ├── references/
+│   ├── 0307052v2.pdf
 │   └── README.md
 └── .gitignore
 ```
@@ -116,6 +136,7 @@ LHCb 在 9 fb$^{-1}$ 的 $pp$ 数据中看到约 800 个信号事例，并在 $m
 - ROE/CS + FastBDT 的本底抑制方案；
 - RooFit 产额拟合与 Dalitz 振幅分析框架；
 - 18 个月执行计划与团队分工；
+- **简化路线**：Belle 2003 式 $D_{sJ}$ 直接重建 + 四联玩具图；
 - 代码骨架与后续 agent 的检索协议。
 
 **还没有的：**

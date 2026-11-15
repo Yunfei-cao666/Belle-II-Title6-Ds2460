@@ -18,6 +18,7 @@
 | Skim `BtoDsDsst_Kpi_KK` | 同上 | code 14121403；用于 $D_s\to\phi\pi/K^{*0}K/K_S^0K$，不是本 B 拓扑 | 高 |
 | `b2luigi` | <https://b2luigi.belle2.org/starterkit/Ex07_basf2_analysis.html> | `Basf2PathTask` 新 import 路径；版本间会变 | 中 |
 | LHCb 论文 | <https://doi.org/10.1016/j.scib.2025.02.025> | 9 fb$^{-1}$，约 800 事件，$\pi\pi$ 双峰 | 高 |
+| Belle 2003 $D_{sJ}$ 论文 | <https://arxiv.org/abs/hep-ex/0307052> | 86.9 fb$^{-1}$，$\Delta M$ 分析，$D_{sJ}(2317)/(2457)$ | 高 |
 
 ## 待验证
 
