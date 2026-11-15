@@ -45,6 +45,7 @@
 
 > 执行摘要的 PDF 版本：[`docs/00_summary.pdf`](docs/00_summary.pdf)。  
 > 简化路线的完整报告 PDF：[`docs/10_dsj_analysis.pdf`](docs/10_dsj_analysis.pdf)。  
+> Inputs/参数清单 PDF：[`docs/INPUTS.pdf`](docs/INPUTS.pdf)。  
 > GitHub 上直接点 `.md` 也能看，公式用 `$...$` 渲染。
 
 ---
@@ -101,6 +102,7 @@ LHCb 在 9 fb$^{-1}$ 的 $pp$ 数据中看到约 800 个信号事例，并在 $m
 │   ├── 09_agent_brief.md
 │   ├── 10_dsj_analysis.md
 │   ├── INPUTS.md
+│   ├── INPUTS.pdf
 │   └── SEARCH_LOG.md
 ├── code/
 │   ├── steering/
