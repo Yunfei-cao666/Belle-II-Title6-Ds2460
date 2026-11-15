@@ -43,10 +43,12 @@
 | 12 | [`docs/10_dsj_analysis.md`](docs/10_dsj_analysis.md) | 全组 | **简化路线**：Belle 2003 式 $D_{sJ}$ 直接重建 + 玩具图 |
 | 13 | [`docs/11_signal_mc.md`](docs/11_signal_mc.md) | 全组 | **signal MC 怎么产生、generic MC 能不能直接用** |
 | 14 | [`docs/INPUTS.md`](docs/INPUTS.md) | 全组/复核 | **Inputs 与参数清单**：用了哪些文件、哪些论文值、哪些 toy 假设 |
+| 15 | [`docs/12_mc_production_plan.md`](docs/12_mc_production_plan.md) | 全组 | **MC 生产确认版**：signal MC 怎么产生、generic 怎么用、效率/cross-feed |
 
 > 执行摘要的 PDF 版本：[`docs/00_summary.pdf`](docs/00_summary.pdf)。  
 > 简化路线的完整报告 PDF：[`docs/10_dsj_analysis.pdf`](docs/10_dsj_analysis.pdf)。  
 > signal MC 说明 PDF：[`docs/11_signal_mc.pdf`](docs/11_signal_mc.pdf)。  
+> MC 生产确认版 PDF：[`docs/12_mc_production_plan.pdf`](docs/12_mc_production_plan.pdf)。  
 > Inputs/参数清单 PDF：[`docs/INPUTS.pdf`](docs/INPUTS.pdf)。  
 > GitHub 上直接点 `.md` 也能看，公式用 `$...$` 渲染。
 
@@ -105,6 +107,8 @@ LHCb 在 9 fb$^{-1}$ 的 $pp$ 数据中看到约 800 个信号事例，并在 $m
 │   ├── 10_dsj_analysis.md
 │   ├── 11_signal_mc.md
 │   ├── 11_signal_mc.pdf
+│   ├── 12_mc_production_plan.md
+│   ├── 12_mc_production_plan.pdf
 │   ├── INPUTS.md
 │   ├── INPUTS.pdf
 │   └── SEARCH_LOG.md
@@ -118,9 +122,14 @@ LHCb 在 9 fb$^{-1}$ 的 $pp$ 数据中看到约 800 个信号事例，并在 $m
 │   ├── mva/
 │   │   ├── README.md
 │   │   └── train_bdt.sh
-│   └── fit/
-│       ├── README.md
-│       └── fit_yield.py
+│   ├── fit/
+│   │   ├── README.md
+│   │   └── fit_yield.py
+│   ├── mc/
+│   │   ├── README.md
+│   │   └── signal_decay_DsJ.dec
+│   └── figures/
+│       └── make_dsj_figures.py
 ├── figures/
 │   ├── README.md
 │   ├── fig_combined.png

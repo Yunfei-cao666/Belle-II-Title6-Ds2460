@@ -1,0 +1,35 @@
+# EvtGen decay-file skeleton for D_sJ signal MC.
+#
+# IMPORTANT
+# ---------
+# 1. Particle names depend on your EvtGen version. Replace D_sJ+ with the
+#    actual name used in your decay table (D_s0*+, D_s1+, etc.).
+# 2. For a dedicated signal sample, keep ONLY ONE D_sJ+ decay line per file.
+#    Do not generate all modes in one sample if you need cross-feed matrices.
+# 3. This is a skeleton, not a validated production decay file.
+
+Decay D_sJ+
+# Choose ONE line per signal sample:
+# 1.0  D_s+  pi0;
+# 1.0  D_s*+  pi0;
+# 1.0  D_s+  gamma;
+1.0  D_s+  pi+  pi-;
+Enddecay
+
+Decay D_s*+
+1.0  D_s+  gamma;
+Enddecay
+
+Decay D_s+
+1.0  phi  pi+;
+Enddecay
+
+Decay phi
+1.0  K+  K-;
+Enddecay
+
+Decay pi0
+1.0  gamma  gamma;
+Enddecay
+
+End
